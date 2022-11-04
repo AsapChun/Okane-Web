@@ -1,0 +1,160 @@
+.underLineText{
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 600;
+    /* text-decoration: underline; */
+    color: #0D268A;
+}
+
+.discretionaryCategoryDashboard{
+    width: 155px;
+    padding-bottom: 1px;
+    text-align: center;
+    height: 155px;
+}
+
+.essentialCategoryDashboard{
+    width: 145px;
+    padding-bottom: 1px;
+    text-align: center;
+    height: 175px;
+}
+
+.invisibleButtonIconDashboard{
+    background-color: #ffffff00;
+    z-index: 10;
+    width: 100px;
+    height: 100%;
+    outline: none;
+    border: none;
+}
+
+.invisibleButtonIconDashboard:focus{
+    outline: none;
+    border: none;
+}
+
+.imagesIconsDashboard{
+    height: 75px;
+    margin-bottom: 5px;
+    transition: all 0.2s ease-in-out;
+    border: solid;
+    border-radius: 50px;
+    border-width: 5px;
+}
+
+.imagesIconsDashboardEssential{
+    height: 75px;
+    margin-bottom: 5px;
+    transition: all 0.2s ease-in-out;
+    border: solid;
+    border-radius: 50px;
+    border-width: 5px;
+}
+
+.imagesIconsDashboardClicked{
+    height: 90px !important;
+}
+
+.imagesIconsDashboard:hover{
+    transform: scale(1.1);
+}
+
+.imagesIconsDashboard:hover{
+    transform: scale(1.1);
+}
+
+.discretionaryCategoryLabel{
+    font-family: 'Poppins';
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.discretionaryCategoryAmount{
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.infoIcon{
+    height: 30px;
+    bottom: 5px;
+    position: relative;
+}
+
+.infoIconButton{
+    background-color: #ffffff00;
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+}
+
+.infoIconButton:focus{
+    outline: none;
+    border: none;
+}
+
+.infoLeadOpen{
+    background: #FFFFFF;
+    border: #2D3A6F;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: -4px 4px 4px 0px rgba(0,0,0,0.3);
+    display: block;
+    position: absolute;
+    width: 250px;
+    height: 140px;
+    left: 485px;
+    z-index: 50;
+    background-color: #CFD8DC;
+    font-family: 'Poppins';
+    font-size: 12px;
+    font-weight: 400;
+    padding: 10px;
+    color: black;
+    text-align: center;
+    opacity: 1;
+    transition: opacity 0.2s linear;
+}
+
+.infoLeadClosed{
+    display: block;
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+}
+
+.infoChartOpen{
+    background: #FFFFFF;
+    border: #2D3A6F;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: -4px 4px 4px 0px rgba(0,0,0,0.3);
+    display: block;
+    position: absolute;
+    width: 250px;
+    height: 80px;
+    left: 0px;
+    z-index: 50;
+    background-color: #CFD8DC;
+    font-family: 'Poppins';
+    font-size: 12px;
+    font-weight: 400;
+    padding: 10px;
+    color: black;
+    text-align: center;
+    opacity: 1;
+    transition: opacity 0.2s linear;
+}
+
+.infoChartClosed{
+    display: block;
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+}

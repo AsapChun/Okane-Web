@@ -1,0 +1,389 @@
+.btn_toggle_on{
+    border-color: #2D3A6F;
+    border-width: 0.5px;
+    background-color: #eaecf5;
+    color: #2D3A6F;
+    font-weight: 700;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: all .2s ease-in-out;
+    height: 30px;
+    width: 300px;
+}
+
+.btn_toggle_off:hover{
+    transform: scale(1.05);
+}
+
+.btn_toggle_off{
+    border-color: #9d9d9d;
+    border-width: 0.5px;
+    background-color: #FFFFFF;
+    color: #535353;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: 500;
+    transition: all .2s ease-in-out;
+    height: 30px;
+    width: 300px;
+}
+
+.categoryToggleRowDiv{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin: 0px;
+    height: 75px;
+    padding-top: 5px;
+}
+
+.categoryToggleDiv{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 0px;
+    text-align: center;
+    justify-content: center;
+    width: 85px;
+    transition: all 0.3s linear;
+    font-family: 'Poppins';
+    font-size: 11px;
+    font-weight: 400;
+}
+
+.categoryToggleIcon{
+    height: 55px;
+    transition: all 0.3s ease-in;
+    border-radius: 50px;
+    border: solid;
+    border-color: #00000000;
+    border-width: 5px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.categoryToggleDiv:hover{
+    transform: scale(1.1);
+}
+
+.categoryToggleIconSelected{
+    height: 55px;
+    margin-right: 50px;
+    margin-left: 50px;
+    border-radius: 50px;
+    border: solid;
+    border-color: #2D3A6F;
+    border-width: 5px;
+}
+
+.transactionTableHoverIconHidden{
+    display: block;
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+    transition: all 0.3s linear;
+}
+
+.transactionTableHoverIcon{
+    display: block;
+    width: 100px;
+    height: 50px;
+    opacity: 1;
+    transition: all 0.3s linear;
+}
+
+#nonEssentialSpendButton{
+    margin-left: 15px;
+}
+
+.tableHeaderDiv{
+    background-color: #FFFFFF;
+    position: sticky;
+    top: 80px;
+    z-index: 10;
+}
+
+.tableHeader{
+    font-family: 'Poppins' !important;
+    font-weight: 700 !important;
+    font-size: 18px !important;
+    color: #655B96 !important;
+    text-transform: none !important;
+}
+
+.table-responsive{
+    overflow-x: visible !important;
+}
+
+.tableContent{
+    font-family: 'Poppins' !important;
+    font-weight: 400 !important;
+    font-size: 13px !important;
+    color: black !important;
+    text-transform: none !important;
+    flex-wrap: wrap;
+    height: 72px;
+}
+
+.tableContentCategory{
+    font-family: 'Poppins' !important;
+    font-weight: 400 !important;
+    font-size: 13px !important;
+    color: black !important;
+    text-transform: none !important;
+    flex-wrap: nowrap;
+}
+
+.table td, .table th{
+    vertical-align: middle !important;
+}
+
+.categoryImage{
+    height: 40px;
+    margin-right: 5px;
+}
+
+.buttonExpandTable{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    bottom: 50%;
+    margin-top: 9px;
+    background-color: #ffffff00;
+    border: none;
+    outline: none;
+    z-index: 10;
+}
+
+.buttonExpandTable:focus{
+    outline: none;
+}
+
+
+.popUp{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.modalBody{
+    background-color: #FFFFFF;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 5px;
+    box-shadow: -4px 4px 10px rgba(0,0,0,0.5);
+    text-align: left;
+    padding: 10px;
+    padding-left: 15px;
+    margin-bottom: 10px;
+    font-family: 'Poppins';
+}
+
+.iconModal{
+    height: 60px;
+}
+
+.modal-content{
+    background-color: #ffffff00 !important;
+    border: none !important;
+}
+
+.deleteTransaction{
+    margin-left: 55%;
+    margin-bottom: 10px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    box-shadow: -4px 4px 10px rgba(0,0,0,0.5);
+    text-align: right;
+    padding-right: 10px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    color: #880f0f;
+}
+
+
+.vendorNameModal{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 25px;
+    color: #655B96;
+}
+
+.accountNameModal{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 15px;
+    color: #000000;
+}
+
+.transactionAmountModal{
+    margin-top: 9px;
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 25px;
+    color: #655B96;
+}
+
+.vendorNameModal{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 25px;
+    color: #655B96;
+}
+
+.showDetailPopup{
+    position: absolute;
+    visibility: visible;
+    opacity: 1;
+    transition: all .2s ease-in-out;
+    z-index: 10;
+}
+
+.hideDetailPopup{
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .2s ease-in-out;
+    z-index: 10;
+}
+
+.closeDetail{
+    background-color: #FFFFFF;
+    border: #2D3A6F;
+    position: absolute;
+    text-align: center;
+    border-width: 1px;
+    right: 340px;
+    width: 75px;
+    bottom: 24px;
+    border-style: solid;
+    border-radius: 5px;
+    box-shadow: -2px 2px 5px rgba(0,0,0,0.5);
+    transition: all .2s ease-in-out;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.closeDetail:focus{
+    outline: none;
+}
+
+.closeDetail:hover{
+    transform: scale(1.03);
+}
+
+.closeDetailButton{
+    background-color: #ffffff00;
+    border: none;
+    outline: none;
+    height: 100%;
+    width: 100%;
+}
+
+.closeDetailButton:hover{
+    outline: none;
+}
+
+.deleteTransactionDetail{
+    background-color: #FFFFFF;
+    border: #2D3A6F;
+    border-style: solid;
+    border-width: 1px;
+    right: 14px;
+    width: 175px;
+    bottom: 24px;
+    position: absolute;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: -2px 2px 5px rgba(0,0,0,0.5);
+    color: #AB2E26;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 14px;
+    transition: all .2s ease-in-out;
+}
+
+.deleteTransactionDetail:focus{
+    outline: none;
+}
+
+
+.deleteTransactionDetail:hover{
+    transform: scale(1.03);
+}
+
+.changeTransactionDetail{
+    background-color: #FFFFFF;
+    border: #2D3A6F;
+    border-style: solid;
+    border-width: 1px;
+    right: 14px;
+    width: 400px;
+    height: 200px;
+    bottom: -190px;
+    position: absolute;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: -4px 4px 10px rgba(0,0,0,0.5);
+    padding-right: 5px;
+    transition: all .5s ease-in-out;
+    overflow-x: hidden;
+    z-index: 10;
+}
+
+.changeTransactionDetail:hover{
+    transform: scale(1.03);
+}
+
+.changeTransactionLead{
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 17px;
+    color: #655B96;
+    justify-content: center;
+    margin: 0px !important;
+    position: sticky;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.searchGrid {
+    margin-left: 3px !important;
+    margin-right: 0px !important;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.searchGridIcon{
+    height: 40px;
+}
+
+.searchGrindPlace{
+    padding: 2px;
+    transition: all .2s ease-in-out;
+}
+
+.searchGrindPlace:hover{
+    background-color: #e8e8e8;
+    transform: scale(1.03);
+}
+
+.buttonSelectGrid{
+    background-color: #ffffff00;
+    border: none;
+    outline: none;
+    height: 100%;
+    z-index: 25;
+    width: 100%;
+}
+
+.noMarginRow{
+    margin: 0px !important;
+    text-align: center;
+    justify-content: center;
+}
+
+.categoryName{
+    font-size: 12px;
+}

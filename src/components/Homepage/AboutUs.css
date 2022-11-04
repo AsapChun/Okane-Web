@@ -1,0 +1,15 @@
+.TeamHeader {
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  /* identical to box height, or 133% */
+
+  display: flex;
+  align-items: center;
+
+  /* Neutral / Grey 8 */
+
+  color: #151617;
+}

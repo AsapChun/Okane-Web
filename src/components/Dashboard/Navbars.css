@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+.dashboard-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    display:inline;
+    /* float:right; */
+}
+
+.navbar .navbar-toggler .navbar-toggler-bar {
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  margin: 0 auto;
+  background-color: #FFFFFF !important;
+}
+
+.navbar .navbar-toggler .burger-lines {
+  display: block;
+  position: relative;
+  background-color: #FFFFFF;
+  width: 24px;
+  height: 2px;
+  border-radius: 1px;
+  margin: 4px auto; 
+}
+
+.vertical {
+  border-left: 1px solid black;
+  height: 50px;
+  padding: 0px;
+  margin: 0px;
+  position:absolute;
+  left: 165px;
+  bottom: 23px;
+  width: 10px
+}
+
+.text-nowrap{
+  color: black !important;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+}

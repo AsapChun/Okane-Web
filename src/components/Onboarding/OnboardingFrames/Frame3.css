@@ -1,0 +1,77 @@
+.mainContainerFrame3{
+    animation: fadeinFrame3 1s;
+    opacity: 1;
+    border-radius: 30px 30px 0px 30px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    padding: 20px
+}
+
+.mainContainerImgFrame3{
+    text-align: right;
+    animation: fadeinFrame3Image 1s;
+}
+
+.okaneIcon{
+    height: 50px;
+    width: 50px;
+    left: 50px;
+    z-index: 50;
+}
+
+@keyframes fadeinFrame3 {
+    0%,
+    80%,
+    to {
+        animation-timing-function: linear;
+    }
+    0% {
+        top: 20px;
+        opacity: 0;
+    }
+    80% {
+        top: 60px;
+        opacity: 0.9;
+    }
+    to {
+        top: 50px;
+        opacity: 1;
+    }
+}
+
+@keyframes fadeinFrame3Image {
+    0%,
+    80%,
+    to {
+        animation-timing-function: linear;
+    }
+    0% {
+        top: 95px;
+        opacity: 0;
+    }
+    80% {
+        top: 135px;
+        opacity: 0.9;
+    }
+    to {
+        top: 125px;
+        opacity: 1;
+    }
+}
+
+.SecondaryHeader {
+    /* position: relative;
+    width: 599.78px;
+    height: 72px;
+    left: 0px;
+    right: 102.62;
+    top: 275.03px; */
+    font-family: 'Poppins';
+    font-style: thin;
+    font-weight: 200;
+    font-size: 17px;
+    line-height: 24px;
+
+    color: #333333;
+}

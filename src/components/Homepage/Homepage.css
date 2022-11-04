@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+.homepage-title {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 96px;
+  /* identical to box height, or 133% */
+
+  display: flex;
+  align-items: center;
+  color: #151617;
+}
+
+.homepage-secondary-title {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+
+  display: flex;
+  align-items: center;
+  /* text-align: center; */
+}
+
+.homepage-row-primary {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 45px;
+  /* or 125% */
+
+  display: flex;
+  align-items: center;
+
+  /* Neutral / Grey 8 */
+
+  color: #151617;
+}
+
+.homepage-row-secondary {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #151617;
+}
+
+.homepage-carousel-badge {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 28px;
+  color: white;
+}

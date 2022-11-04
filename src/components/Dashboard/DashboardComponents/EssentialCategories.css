@@ -1,0 +1,50 @@
+.essentialLeadOpen{
+  background: #FFFFFF;
+  border: #2D3A6F;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: -4px 4px 4px 0px rgba(0,0,0,0.3);
+  display: block;
+  position: absolute;
+  width: 250px;
+  height: 140px;
+  left: 85px;
+  z-index: 50;
+  background-color: #CFD8DC;
+  font-family: 'Poppins';
+  font-size: 12px;
+  font-weight: 400;
+  padding: 10px;
+  color: black;
+  text-align: center;
+  opacity: 1;
+  transition: opacity 0.2s linear;
+}
+
+.essentialLeadClosed{
+  display: block;
+  width: 0px;
+  height: 0px;
+  opacity: 0;
+}
+
+.infoIcon{
+  height: 30px;
+  bottom: 5px;
+  position: relative;
+}
+
+.infoIconButton{
+  background-color: #ffffff00;
+  height: 100%;
+  width: 100%;
+  outline: none;
+  border: none;
+}
+
+.infoIconButton:focus{
+  outline: none;
+  border: none;
+}

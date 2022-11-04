@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
+
+.BoldHeader {
+    /* position: relative;
+    width: 665.38px;
+    height: 90px;
+    left: 0px;
+    top: 301.01px;
+    right: 102.62; */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+
+    color: #333333;
+}
+
+.mainContainerMyAccounts{
+    text-align: center;
+    animation: fadeinMyAccounts 1s;
+    top: 150px;
+    opacity: 1;
+    border-radius: 30px 30px 0px 30px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    padding: 40px
+}
+
+.mainContainerImgMyAccounts{
+    text-align: right;
+    animation: fadeinMyAccountsImage 1s;
+}
+
+.okaneIcon{
+    height: 50px;
+    width: 50px;
+    left: 50px;
+    z-index: 50;
+}
+
+@keyframes fadeinMyAccounts {
+    0%,
+    80%,
+    to {
+        animation-timing-function: linear;
+    }
+    0% {
+        top: 120px;
+        opacity: 0;
+    }
+    80% {
+        top: 160px;
+        opacity: 0.9;
+    }
+    to {
+        top: 150px;
+        opacity: 1;
+    }
+}
+
+@keyframes fadeinMyAccountsImage {
+    0%,
+    80%,
+    to {
+        animation-timing-function: linear;
+    }
+    0% {
+        top: 95px;
+        opacity: 0;
+    }
+    80% {
+        top: 135px;
+        opacity: 0.9;
+    }
+    to {
+        top: 125px;
+        opacity: 1;
+    }
+}
+
+.hidden {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s 2s, opacity 2s linear;
+  }
+
+.button-text {
+    font-family: 'Poppins';
+    font-style: thin;
+    font-weight: 200;
+  }
+
+.buttonDiv:hover { 
+    transform: scale(1.1); 
+}
+
+.buttonDiv { 
+    transition: all .2s ease-in-out; 
+}
+
+
+.circle {
+    position: relative;
+    width: 10px;
+    height: 10px;
+    background-color: gray;
+    border-radius: 50%;
+  }
+.SecondaryHeaderMyAccounts {
+    /* position: relative;
+    width: 599.78px;
+    height: 72px;
+    left: 0px;
+    right: 102.62;
+    top: 275.03px; */
+    font-family: 'Poppins';
+    font-style: thin;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 10px;
+
+    color: #333333;
+}
+ellipse {
+    cx: 100;
+    cy: 100;
+    rx: 90;
+    ry: 50;
+    stroke: red;
+    stroke-width: 5;
+    fill: rgb(70,190,81);
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #A2A3A8 !important;
+    left: 0px !important;
+    border-style: none !important;
+}
+
+.meter { 
+    margin-top: 10px;
+    height: 5px;
+    width: 100%;
+    position: relative;
+    background: #f3efe6;
+    overflow: hidden;
+}
+
+.meter span {
+    display: block;
+    height: 100%;
+}
+
+.progress {
+    background-color: #6773A7;
+    animation: progressBar 130s ease-in-out;
+    animation-fill-mode: both;
+    -webkit-animation: progressBar 130s ease-in-out;
+    -webkit-animation-fill-mode:both; 
+    -moz-animation: progressBar 130s ease-in-out;
+    -moz-animation-fill-mode:both; 
+}
+
+@keyframes progressBar {
+    0% { width: 0; }
+    33% {width: 50%;}
+    100% { width: 100%; }
+}
+
+@-webkit-keyframes progressBar {
+  0% { width: 0; }
+  33% {width: 50%;}
+  100% { width: 100%; }
+}
+
+@-moz-keyframes progressBar {
+  0% { width: 0; }
+  33% {width: 50%;}
+  100% { width: 100%; }
+}

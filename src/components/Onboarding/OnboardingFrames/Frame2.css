@@ -1,0 +1,240 @@
+
+.button-text {
+    font-family: 'Poppins';
+    font-style: thin;
+    font-weight: 200;
+  }
+
+.buttonDiv:hover { 
+    transform: scale(1.1); 
+}
+
+.buttonDiv { 
+    transition: all .2s ease-in-out; 
+    outline: none;
+}
+
+.buttonDiv:focus {
+    outline: none;
+}
+
+.okaneUIInjectDiv{
+    position: absolute;
+    bottom: 175px;
+    left: 225px;
+}
+
+.okaneUIInject{
+    width: 250px;
+    outline: solid;
+    outline-color: gray;
+    outline-width: 1px;
+    border-radius: 5px;
+    box-shadow: rgb(0 0 0 / 15%) -5px 4px 4px;
+    opacity: 0;
+    display: none;
+}
+
+.okaneUIInjectActive{
+    width: 250px;
+    outline: solid;
+    outline-color: gray;
+    outline-width: 1px;
+    border-radius: 5px;
+    box-shadow: rgb(0 0 0 / 15%) -5px 4px 4px;
+    display: block;
+    opacity: 1;
+    animation: growIn 0.75s;
+}
+
+@keyframes growIn {
+    0% {
+      transform: scale(0);
+    }
+    70% {
+      transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+  }
+
+.mainContainerFrame2{
+    animation: fadeinFrame2 1s;
+    opacity: 1;
+    border-radius: 30px 30px 0px 30px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    padding: 20px
+}
+
+.mainContainerImgFrame2{
+    text-align: right;
+    animation: fadeinFrame2Image 1s;
+}
+
+.mainContainerFrame2FadeOut{
+    animation: fadeoutFrame2 1s;
+    opacity: 0;
+    border-radius: 30px 30px 0px 30px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    padding: 20px;
+    display: none;
+}
+
+.okaneIcon{
+    height: 50px;
+    width: 50px;
+    left: 50px;
+    z-index: 50;
+}
+
+
+
+@keyframes fadeoutFrame2 {
+    0%,
+    80%,
+    to {
+        animation-timing-function: linear;
+    }
+    0% {
+        top: 50px;
+        opacity: 1;
+    }
+    80% {
+        top: 60px;
+        opacity: 0.9;
+    }
+    to {
+        top: 20px;
+        opacity: 0;
+    }
+}
+
+
+@keyframes fadeinFrame2 {
+    0%,
+    80%,
+    to {
+        animation-timing-function: linear;
+    }
+    0% {
+        top: 20px;
+        opacity: 0;
+    }
+    80% {
+        top: 60px;
+        opacity: 0.9;
+    }
+    to {
+        top: 50px;
+        opacity: 1;
+    }
+}
+
+@keyframes fadeinFrame2Image {
+    0%,
+    80%,
+    to {
+        animation-timing-function: linear;
+    }
+    0% {
+        top: 95px;
+        opacity: 0;
+    }
+    80% {
+        top: 135px;
+        opacity: 0.9;
+    }
+    to {
+        top: 125px;
+        opacity: 1;
+    }
+}
+
+.mainContainerFrame3Hidden{
+    display: none;
+    opacity: 0;
+    border-radius: 30px 30px 0px 30px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    padding: 20px
+}
+
+.mainContainerFrame3{
+    animation: fadeinFrame3 1s;
+    opacity: 1;
+    border-radius: 30px 30px 0px 30px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    padding: 20px
+}
+
+@keyframes fadeinFrame3 {
+    0%,
+    80%,
+    to {
+        animation-timing-function: linear;
+    }
+    0% {
+        top: 20px;
+        opacity: 0;
+    }
+    80% {
+        top: 60px;
+        opacity: 0.9;
+    }
+    to {
+        top: 50px;
+        opacity: 1;
+    }
+}
+
+.hidden {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s 2s, opacity 2s linear;
+  }
+
+.okaneIconShake {
+    animation: grow 2.5s infinite;
+    height: 50px;
+    width: 50px;
+    left: 50px;
+    z-index: 50;
+    opacity: 1 !important;
+}
+
+.okaneIconNoShake {
+    height: 50px;
+    width: 50px;
+    left: 50px;
+    z-index: 50;
+    opacity: 1 !important;
+}
+
+@keyframes grow {
+    0%,
+    40%,
+    60%,
+    to {
+        transform: scale(1);
+    }
+    0% {
+        transform: scale(1);
+    }
+    40%{
+        transform: scale(2.5);
+    }
+    60% {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1);
+    }
+}
