@@ -1,4 +1,7 @@
-#Steps For Greatness
+#Okane Web Code
+Features: 
+- Allow user to connect to Plaid
+- Dashboard to view User's financial information
 
 Set-up
 1) Ensure you have the correct .env values
