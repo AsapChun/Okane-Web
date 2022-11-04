@@ -1,4 +1,6 @@
 #Okane Web Code
+Okane Website Portal :)
+
 Features: 
 - Allow user to connect to Plaid
 - Dashboard to view User's financial information
